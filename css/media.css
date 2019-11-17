@@ -1,0 +1,138 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*top bar*/
+	.custom-user { width: 220px; }
+	.custom-dropdown-menu-search{ width: 100px; }
+	.custom-user h2 { font-size: 22px; }
+	/*top bar*/
+	/*header*/
+	.cus-nav h1{ font-size: 47px; }
+	/*header*/
+	/*banner*/
+	.h_text{ padding: 30px 0 250px; }
+	.h_text h1{ font-size: 22px; }
+	.h_text p{ font-size: 12px; word-spacing: 0px; margin-bottom: 24px; }
+	.custom-btn1{ font-size:14px; padding: 6px 24px; margin-top: 0px; margin-bottom: 42px; }
+	/*banner*/
+	/*catagories*/
+    .catagories { padding: 50px 0; }
+	.cus-padd-catagories{ padding: 20px 5px 0px; }
+    .catagories-head{ margin-bottom: 25px; }
+    .catagories-body{ padding: 18px 3px; }
+	.catagories-body h2{ font-size: 12px; }
+	/*catagories*/
+	/*courses*/
+	.custom-btn2{
+		margin-top: 0px;
+	}
+	/*courses*/
+	/*instructors*/
+	.cus-img-2{
+		margin-left: 68px;
+	}
+	/*instructors*/
+	/*contact*/
+	.contact{padding: 30px 0;}
+	.cus-img3{ margin-left: 70px; }
+	/*contact*/
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*top bar*/
+	.custom-dropdown-menu-search{ width: 273px; }
+    /*top bar*/
+    /*banner*/
+    .h_text{ padding: 70px 0 350px; }
+	.h_text h1{ font-size: 36px; }
+	.h_text p{ font-size: 16px; word-spacing: 0.5px; }
+	.custom-btn1{ font-size:16px; padding: 8px 24px; margin-top: 16px;  margin-bottom: 30px;}
+    /*banner*/
+    /*catagories*/
+    .catagories { padding: 60px 0; }
+    .catagories-head{ margin-bottom: 45px; }
+    .catagories-body{ padding: 28px 3px; }
+    /*catagories*/
+    /*courses*/
+	.custom-btn2{ margin-top: 0px; }
+	/*courses*/
+	/*instructors*/
+	.top_text1 { padding: 20px 0 10px; }
+	.cus-img-2{ margin-left: 44px; }
+	.cus-card2 h3 { font-size: 25px; }
+	.cus-card2{ margin-top: 70px; }
+	/*instructors*/
+	/*goals*/
+	.cus-img3 { margin-left: 178px; }
+	/*goals*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*banner*/
+	.h_text{ padding: 80px 0 380px; }
+	.h_text h1{ font-size: 46px; }
+	.custom-btn1{ padding: 10px 30px; margin-top: 16px;  margin-bottom: 30px;}
+	/*banner*/
+	/*catagories*/
+	.catagories { padding: 70px 0; }
+    .catagories-head{ margin-bottom: 55px; }
+	.catagories-body{ padding: 20px 3px; }
+	.catagories-body h2{ font-size: 14px; }
+	/*catagories*/
+	/*courses*/
+	.top_courses{ padding: 30px 0 80px;}
+	.top_text1 { padding: 30px 0 20px; }
+	.custom-body2 h5{ font-size: 20px; }
+	.custom-body2 p{ font-size: 14px; }
+	.c_text p{ padding-right: 22px; }
+	.c_price p{ font-size: 22px; }
+	.p_bott { margin-top: 12px; margin-bottom: 16px;}
+	.custom-body2{ padding: 15px 7px 3px 6px;}
+	/*courses*/
+	/*contact*/
+	.contact{ padding: 20px 0; }
+	/*contact*/
+	/*instructors*/
+	.cus-img-2{ margin-left: 88px; }
+	.cus-card2{ margin-top: 80px; }
+	/*instructors*/
+	/*goals*/
+	.cus-img3 { margin-left: 90px; }
+	.cus-card-body3 h3{font-size: 21px;}
+	.cus-card-body3 p{font-size: 17px;}
+	/*goals*/
+	/*footer*/
+	.address{ text-align: left; }
+	/*footer*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*catagories*/
+    .catagories-body{ padding: 40px 5px; }
+	/*catagories*/
+
+	/*instructors*/
+	.cus-img-2{ margin-left: 70px; }
+	.cus-card2{ margin-top: 80px; }
+	/*instructors*/
+	/*contact*/
+	.contact{ padding: 30px 0; }
+	/*contact*/
+	/*goals*/
+	.cus-img3 { margin-left: 72px; }
+	.cus-card-body3 h3{font-size: 21px;}
+	.cus-card-body3 p{font-size: 17px;}
+	.m_t{
+		margin-top: 46px;
+	}
+	/*goals*/
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
